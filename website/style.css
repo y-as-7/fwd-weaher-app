@@ -74,6 +74,8 @@ body{
 /* start output */
 #con .outputs {
     display: none;
+    width: 60%;
+    margin: 0 auto;
 }
 #con .outputs .title{
     color: crimson;
