@@ -9,7 +9,7 @@ let d = new Date();
 let newDate = d.getMonth() + "." + d.getDate() + "." + d.getFullYear();
 const baseUrl =
   "https://api.openweathermap.org/data/2.5/weather?units=imperial&zip=";
-const key = "df0d3461865ce0be174fd59d5d73da0a";
+const key = "81a76a9a84578bcc280f653e7bfd491a";
 
 
   btn.addEventListener("click", btnHandler);
