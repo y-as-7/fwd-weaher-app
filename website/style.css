@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #202832;
+}
+/* start input */
+#con{
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+#con div{
+    margin: 20px 0;
+}
+#con  .title{
+    font-size: 3rem;
+    color: crimson;
+    text-align: center;
+    text-transform: capitalize;
+}
+#con .inputs{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+#con .inputs label{
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 2px;
+    text-transform: capitalize;
+}
+#con .inputs input{
+    width: 80%;
+    height: 35px;
+    font-size: 20px;
+    padding: 0 7px;
+    margin-bottom: 15px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: crimson;
+}
+#con .inputs textarea{
+    width: 80%;
+    height: 50px;
+    font-size: 20px;
+    padding: 10px 7px;
+    margin-bottom: 15px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: crimson;
+}
+
+#con .inputs button{
+    width: 80%;
+    height: 35px;
+    font-size: 20px;
+    padding: 0 7px;
+    margin-bottom: 15px;
+    background-color: crimson;
+    border: 1px solid #fff;
+    color: #fff;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+/* end input */
+
+/* start output */
+#con .outputs {
+    display: none;
+}
+#con .outputs .title{
+    color: crimson;
+    font-size: 1.6rem;
+    text-align: center;
+}
+#con .outputs  .result{
+    border: 1px solid #fff;
+    margin: 0 auto;
+}
+#con .outputs  .result div{
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+#con .outputs  .result div h2{
+    font-size: 1.5rem;
+    color: crimson;
+    margin: 0 20px;
+
+}
+.display{
+    display: unset !important;
+}
+
+/* end output */
+
+
+

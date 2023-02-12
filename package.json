@@ -1,0 +1,27 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "enter zip code and get the tempreture",
+  "main": "server.js",
+  "scripts": {
+    "start": "node app.js",
+    "watch": "nodemon --ext js,ejs --ignore public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/y-as-7/fwd-weaher-app.git"
+  },
+  "author": "youssef",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/y-as-7/fwd-weaher-app/issues"
+  },
+  "homepage": "https://github.com/y-as-7/fwd-weaher-app#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "connect-livereload": "^0.6.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "livereload": "^0.9.3"
+  }
+}
